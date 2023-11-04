@@ -1,0 +1,15 @@
+we can define condition
+
+public class condition {
+    int scoreCondition;
+    public void studentConditions(int scoreCondition){
+        if (scoreCondition>80)
+            System.out.println(scoreCondition + " is best condition");
+        else if (scoreCondition>60)
+            System.out.println( scoreCondition + " is good");
+        else if (scoreCondition>40)
+            System.out.println(scoreCondition + " is not bad");
+        else
+            System.out.println(scoreCondition + " is bad");
+    }
+}
