@@ -4,7 +4,6 @@ using namespace std;
 
 
 int main() {
-	//int result;
 	float height, weight, BMI;
 	cin >> weight;
 	cin >> height;
@@ -30,3 +29,4 @@ int main() {
 	cout << BMI;
 	return 0;
 }
+// bmi provide information about health
