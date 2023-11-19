@@ -1,0 +1,32 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+
+int main() {
+	//int result;
+	float height, weight, BMI;
+	cin >> weight;
+	cin >> height;
+	height = pow(height, 2);
+	BMI = weight / height;
+	if (BMI < 18.5)
+	{
+		cout << "underweight";
+	}
+	else if (BMI > 18.5 && BMI < 25)
+	{
+		cout << "normal";
+	}
+	else if (BMI >= 30)
+	{
+		cout << "obese";
+	}
+	else
+	{
+		cout << "overweight";
+	}
+	cout << endl;
+	cout << BMI;
+	return 0;
+}
