@@ -1,5 +1,7 @@
 void main(){
+           int input;
            cout<<"git is not Hard";
-           for(int i = 0 ; i<3 ; i++)
-                  cout<<"c++ is easier than java!";}
+           cin>>input;
+           for(int i = 0 ; i<input ; i++)
+                  cout<<"c++ is harder than java!";}
 
