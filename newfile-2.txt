@@ -1,5 +1,7 @@
 public class Main{
            public void main(){
-                          system.out.println("Hello World!");
-                          system.out.println("git is not hard!"};
+                          for(int i=0;i<3;i++)
+                                 system.out.println("java is hard!");
+                          system.out.println("git is not hard!");}
+                          
 }
