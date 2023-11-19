@@ -1,4 +1,5 @@
 public class Main{
            public void main(){
-                          system.out.println("Hello World");}
+                          system.out.println("Hello World!");
+                          system.out.println("git is not hard!"};
 }
